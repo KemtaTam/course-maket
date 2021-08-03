@@ -8,3 +8,17 @@ $(function(){
 		nextArrow: '<button type="button" class="slick-prev"><img src="images/slider-blog/right.png" alt="">Previous</button>', */
 	});
 });
+
+let burgerBtn = document.getElementsByClassName('header__burger-btn')[0];
+let burgerBtnOff = document.getElementsByClassName('header__burger-btn off')[0];
+let headerBurger = document.getElementsByClassName('header__burger')[0];
+
+burgerBtn.addEventListener('click', () => { 
+	headerBurger.style.display = 'block';
+});
+burgerBtnOff.addEventListener('click', () => { 
+	headerBurger.style.display = 'none';
+});
+
+	
+
