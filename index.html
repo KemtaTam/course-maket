@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>marketing</title>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;400;600&family=Raleway:wght@700&display=swap" rel="stylesheet">
 	<link
-	rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-	/>
+		href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;400;600&family=Raleway:wght@700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>урок 4</title>
-
 </head>
-<body>
 
-	<header class="header">
+<body>
+	<header class="header" id="home">
 		<div class="header__top">
 			<div class="container">
 				<div class="header__top-inner">
-					<a href="#" class="header__logo"><img src="images/header/LOGO.svg" alt="logo" class="header__logo-img"></a>
+					<a href="#" class="header__logo"><img src="images/header/LOGO.svg" alt="logo"
+							class="header__logo-img"></a>
 					<nav class="header__menu">
+						<button type="submit" class="menu__btn"><img src="images/header/menu-btn.svg.svg"
+								alt=""></button>
 						<ul>
-							<li><a href="#">HOME</a></li>
+							<li><a href="#home">HOME</a></li>
 							<li><a href="#about">ABOUT US</a></li>
 							<li><a href="#portfolio">PORTFOLIO</a></li>
 							<li><a href="#team">OUR TEAM</a></li>
@@ -35,7 +38,7 @@
 					</nav>
 				</div>
 			</div>
-			<button type="submit" class="header__burger-btn"><img src="images/header/menu-btn.svg.svg" alt="" class="header__burger-img"></button>
+
 		</div>
 
 		<div class="header__content">
@@ -43,21 +46,22 @@
 				<div class="header__content-inner">
 					<h1 class="header__title">O...MARKETING</h1>
 					<h4 class="header__subtitle">DIGITAL MARKETING AGENCY</h4>
-					<a href="#" class="header__icon"><img src="images/header/mouse.png" alt=""></a>
+					<a href="#footer" class="header__icon"><img src="images/header/mouse.png" alt=""></a>
 				</div>
 			</div>
 		</div>
 
 		<div class="header__burger">
-			<button type="submit" class="header__burger-btn off"><img src="images/header/menu-btn.svg.svg" alt="" class="header__burger-img"></button>
+			<button type="submit" class="menu__btn off"><img src="images/header/menu-btn.svg.svg" alt=""
+					class="header__burger-img"></button>
 			<nav class="header__menu">
 				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#about">ABOUT US</a></li>
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<li><a href="#team">OUR TEAM</a></li>
-					<li><a href="#blog">BLOG</a></li>
-					<li><a href="#contact">CONTACT</a></li>
+					<li><a class="burger__link" href="#home">HOME</a></li>
+					<li><a class="burger__link" href="#about">ABOUT US</a></li>
+					<li><a class="burger__link" href="#portfolio">PORTFOLIO</a></li>
+					<li><a class="burger__link" href="#team">OUR TEAM</a></li>
+					<li><a class="burger__link" href="#blog">BLOG</a></li>
+					<li><a class="burger__link" href="#contact">CONTACT</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -69,10 +73,15 @@
 				<h2 class="title about__title">About Us</h2>
 				<div class="about__section">
 					<p>
-						Практика показывает, что большие продажи далеко не всегда зависят от того, сколько вы потратите на продвижение сайта и рекламную кампанию. Значительно сильнее конечный результат зависит от правильной организации кампании. Мы достигаем максимальной эффективности и помогаем сберечь бюджеты наших клиентов, используя стратегический интернет-маркетинг.
+						Практика показывает, что большие продажи далеко не всегда зависят от того, сколько вы потратите
+						на продвижение сайта и рекламную кампанию. Значительно сильнее конечный результат зависит от
+						правильной организации кампании. Мы достигаем максимальной эффективности и помогаем сберечь
+						бюджеты наших клиентов, используя стратегический интернет-маркетинг.
 					</p><br>
 					<p>
-						Определяем цели продвижения — что наш клиент хочет получить, когда работа будет сделана. Проводим маркетинговые исследования рынка, целевой аудитории, конкурентной среды. При разработке стратегии учитываем все имеющиеся данные.
+						Определяем цели продвижения — что наш клиент хочет получить, когда работа будет сделана.
+						Проводим маркетинговые исследования рынка, целевой аудитории, конкурентной среды. При разработке
+						стратегии учитываем все имеющиеся данные.
 
 					</p>
 				</div>
@@ -82,10 +91,10 @@
 
 	<section class="expertise">
 		<div class="container">
-			<h2 class="title expertise__title">Our Expertise</h2>	
+			<h2 class="title expertise__title">Our Expertise</h2>
 
 			<div class="expertise__main">
-				<div class="expertise__info"> 
+				<div class="expertise__info">
 					<div class="expertise__line-full">
 						<div style="width: calc(100% - (100% - 90%))" class="expertise__line-real">
 							<div class="inscription">BRANDING</div>
@@ -108,10 +117,13 @@
 
 				<div class="expertise__section">
 					<p>
-						В стратегию интернет-маркетинга входит создание имиджевой и рекламной концепции, разработка контент-стратегии, распределение использования различных каналов коммуникации.
+						В стратегию интернет-маркетинга входит создание имиджевой и рекламной концепции, разработка
+						контент-стратегии, распределение использования различных каналов коммуникации.
 					</p><br>
 					<p>
-						Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие действия с учетом изменений. Главной целью в этом процессе для нас является конечный результат, а не следование планам.
+						Реализуем принятую стратегию, отслеживая промежуточные результаты, и корректируя будущие
+						действия с учетом изменений. Главной целью в этом процессе для нас является конечный результат,
+						а не следование планам.
 					</p>
 				</div>
 			</div>
@@ -122,7 +134,8 @@
 					<div class="block">
 						<div class="block__subtitle">GRAPHIC DESIGN</div>
 						<div class="block__section">
-							Рекламный дизайн, дизайн упаковки, этикетки, листовок, каталогов, разработка презентаций, дизайн выставочных стендов
+							Рекламный дизайн, дизайн упаковки, этикетки, листовок, каталогов, разработка презентаций,
+							дизайн выставочных стендов
 						</div>
 					</div>
 				</div>
@@ -131,7 +144,8 @@
 					<div class="block">
 						<div class="block__subtitle">WEB DEVELOPMENT</div>
 						<div class="block__section">
-							Разрабатываем веб сайты от концепции до реализации. Дизайн, верстка, программирование и запуск сайт в сеть
+							Разрабатываем веб сайты от концепции до реализации. Дизайн, верстка, программирование и
+							запуск сайт в сеть
 						</div>
 					</div>
 				</div>
@@ -140,7 +154,8 @@
 					<div class="block">
 						<div class="block__subtitle">MARKETING</div>
 						<div class="block__section">
-							Разрабатываем маркетинговое и рекламное продвижение Вашего продукта или услуги под ключ и на любой бюджет.
+							Разрабатываем маркетинговое и рекламное продвижение Вашего продукта или услуги под ключ и на
+							любой бюджет.
 						</div>
 					</div>
 				</div>
@@ -149,20 +164,26 @@
 	</section>
 
 	<section class="vision">
-		<img src="images/vision/img.jpg" alt="" class="vision__pes">
-		<div class="vision__main">
-			<div class="title vision__main-title">Let’s make magic.</div>
-			<div class="vision__main-section">
-				<p>Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в Харькове и Украине: маркетинговые исследования рынков, товаров, потребителей, планирование комплекса маркетинга, реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
-				</p><br>
-				<p>Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от недвижимости до аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших клиентов, мы сами вышли из бизнес-среды и понимаем суть бизнес-процессов.</p>
-				<p><br>
-					Мы говорим с бизнесом на одном языке!
-				</p>
+		<div class="container">
+			<div class="vision__main">
+				<div class="title vision__main-title">Let’s make magic.</div>
+				<div class="vision__main-section">
+					<p>Маркетинговое агентство MGN: полный комплекс маркетинговых, рекламных и дизайнерских услуг в
+						Харькове и Украине: маркетинговые исследования рынков, товаров, потребителей, планирование
+						комплекса маркетинга, реклама, проведение рекламных кампаний, брендинг, рекламный дизайн, pr.
+					</p>
+					<p>Нами накоплен немалый опыт работы в реальном бизнесе, в самых различных отраслях – от
+						недвижимости до аптечного и медицинского бизнеса. Мы не просто беремся решать задачи наших
+						клиентов, мы сами вышли из бизнес-среды и понимаем суть бизнес-процессов.</p>
+					<p>
+						Мы говорим с бизнесом на одном языке!
+					</p>
+				</div>
 			</div>
 		</div>
+
 	</section>
-	
+
 	<section class="portfolio" id="portfolio">
 		<div class="container">
 			<div class="portfolio__top">
@@ -402,7 +423,7 @@
 			</form>
 	</section>
 
-	<footer class="footer">
+	<footer class="footer" id="footer">
 		<img src="images/footer/LOGO.svg" alt="" class="footer__logo">
 		<div class="footer__border"></div>
 
@@ -421,10 +442,10 @@
 			<a href="mailto:info@mail.com" class="footer__text-address">info@mail.com</a>
 		</div>
 
-		<a href="#" class="footer__img-up-link"><img src="images/footer/angle-up.svg" alt="" class="footer__img-up"></a>
+		<a href="#home" class="footer__img-up-link"><img src="images/footer/angle-up.svg" alt="" class="footer__img-up"></a>
 
 		<div class="footer__down">@2020 O...Marketing</div>
-	</footer>
+	</footer> 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
@@ -432,4 +453,5 @@
 	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
+
 </html>
