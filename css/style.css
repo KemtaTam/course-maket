@@ -6,7 +6,7 @@ font-family: 'Merriweather', serif;*/
 html{
 	box-sizing: border-box;
 	 /*плавынй переход по ссылкам внутри страницы (не все браузеры)*/
-	scroll-behavior: smooth;	
+	/*scroll-behavior: smooth;*/	
   }
   
   *,
